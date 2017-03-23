@@ -3,6 +3,7 @@ package 순수자바트레이닝.첫날;
 /**
  * Created by snake on 17. 3. 5.
  */
+// https://goo.gl/loNcMJ를 이동하여 아래 코드를 시뮬레이션 가능
 
 // 클래스에서 필수사항
 // 1. 모든 변수와 메소드는 class내({})에 존재해야 한다.
