@@ -16,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
         // 2. 레이아웃 파일을 디자인 후에, setContentView의 파라메터로 넘긴다.
         // 3. 번개표시 버튼: instant run을 활용하여 디자인이 핸드폰에 적용된 것을 본다.
         setContentView(R.layout.activity_main);
+
+
     }
 }

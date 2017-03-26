@@ -1,4 +1,4 @@
-package 순수자바트레이닝.세째날;
+package 순수자바트레이닝.둘째날;
 
 import java.util.Scanner;
 public class indexof {

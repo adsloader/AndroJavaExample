@@ -1,4 +1,4 @@
-package 순수자바트레이닝.네째날;
+package 순수자바트레이닝.세째날;
 
 public class 출근_ifonly{
     public static void main(String[] args) {

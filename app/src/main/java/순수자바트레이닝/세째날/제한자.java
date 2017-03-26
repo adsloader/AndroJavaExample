@@ -1,4 +1,4 @@
-package 순수자바트레이닝.네째날;
+package 순수자바트레이닝.세째날;
 public class 제한자 {
     public static void main(String[] args) {
         사람 박씨 = new 사람("박커필드", "구들");

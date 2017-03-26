@@ -1,4 +1,4 @@
-package 순수자바트레이닝.네째날;
+package 순수자바트레이닝.세째날;
 
 import java.util.Scanner;
 public class 사람2 {
@@ -26,3 +26,4 @@ public class 사람2 {
     }
 
 }
+
