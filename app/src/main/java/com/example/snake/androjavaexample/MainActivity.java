@@ -2,6 +2,7 @@ package com.example.snake.androjavaexample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 
 // 이 앱을 핸드폰에 실행하는 목적은
@@ -17,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
         // 3. 번개표시 버튼: instant run을 활용하여 디자인이 핸드폰에 적용된 것을 본다.
         setContentView(R.layout.activity_main);
 
+        testFunc();
 
+
+    }
+
+    private void testFunc() {
+        Toast.makeText(getApplicationContext(), "!!!", Toast.LENGTH_SHORT).show();
     }
 }
