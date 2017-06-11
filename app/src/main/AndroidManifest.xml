@@ -11,9 +11,21 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".day3.activity_1_1" />
         <activity android:name=".day3.activity_1_2" />
-        <activity android:name=".day3.activity_1_3"></activity>
-        <activity android:name=".day3.activity_1_4"></activity>
-        <activity android:name=".day3.activity_1_5">
+        <activity android:name=".day3.activity_1_3" />
+        <activity android:name=".day3.activity_1_4" />
+        <activity android:name=".day3.activity_1_5" />
+        <activity android:name=".day4.activity_2_1" />
+        <activity
+            android:name=".day4.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".day4.activity_2_2" />
+        <activity android:name=".day4.activity_2_2_second" />
+        <activity android:name=".day4.activity_2_3" />
+        <activity android:name=".day4.activity_2_3_second" />
+        <activity android:name=".day4.activity_2_4"></activity>
+        <activity android:name=".day4.activity_2_5">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
