@@ -1,4 +1,4 @@
-package com.example.snake.androjavaexample;
+package com.example.snake.androjavaexample.day3;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;

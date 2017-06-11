@@ -1,10 +1,12 @@
-package com.example.snake.androjavaexample;
+package com.example.snake.androjavaexample.day3;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.snake.androjavaexample.R;
 
 public class activity_1_2 extends AppCompatActivity {
 

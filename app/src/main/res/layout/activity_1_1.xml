@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.snake.androjavaexample.activity_1_1">
+    tools:context="com.example.snake.androjavaexample.day3.activity_1_1">
 
 </LinearLayout>
