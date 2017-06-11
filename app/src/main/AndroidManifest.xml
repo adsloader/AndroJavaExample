@@ -24,14 +24,26 @@
         <activity android:name=".day4.activity_2_2_second" />
         <activity android:name=".day4.activity_2_3" />
         <activity android:name=".day4.activity_2_3_second" />
-        <activity android:name=".day4.activity_2_4"></activity>
-        <activity android:name=".day4.activity_2_5">
+        <activity android:name=".day4.activity_2_4" />
+        <activity android:name=".day4.activity_2_5"></activity>
+
+        <service
+            android:name=".day6.service_3_1"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".day6.activity_3_1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <receiver
+            android:name=".day6.broadcastreceiver_3_2"
+            android:enabled="true"
+            android:exported="true"></receiver>
     </application>
 
 </manifest>
