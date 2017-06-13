@@ -26,5 +26,9 @@ public class Activity_1_2 extends AppCompatActivity {
                 btnOk.setBackgroundColor(Color.parseColor("#FFFF33"));
             }
         });
+
+        // 힌트: click 했는지 안했는 지 비교하는 변수를 관리하면 됨.
+        // 미션 1: 버튼을 처음 누르면 "빨강"으로 텍스트를 보이며 빨강색 처리, 또 한번 누르면
+        // 원래색으로 복귀. 그리고 또 누르면 빨강"으로 텍스트를 보이며 빨강색 처리를 반복하게 구현.
     }
 }

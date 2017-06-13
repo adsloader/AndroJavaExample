@@ -29,4 +29,9 @@ public class Activity_1_3 extends AppCompatActivity {
         });
 
     }
+
+    /*
+    * 미션 1: TextView를 누를 때마다 글자크기를 2씩 줄이고 "?번 클릭"으로 클릭한 횟수를 보여주기
+    * 힌트: 카운트 관련 변수를 관리함.
+    * */
 }

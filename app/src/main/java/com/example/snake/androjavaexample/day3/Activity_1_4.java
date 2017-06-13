@@ -24,9 +24,15 @@ public class Activity_1_4 extends AppCompatActivity {
                 if(hasFocus){
                     Toast.makeText(getApplicationContext(), edt.getText().toString(), Toast.LENGTH_LONG).show();
                     edt.setText("");
+
                 }
             }
         });
 
     }
+    /*
+     * 미션 1: EditText에 포커스가 들어오면 글자크기를 30sp로 지정한다.
+     * 포커스가 사라지면 20sp로 지정한다.
+     * 힌트 : setSize();
+    * */
 }

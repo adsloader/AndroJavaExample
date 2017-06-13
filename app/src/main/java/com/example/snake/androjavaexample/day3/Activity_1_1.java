@@ -34,4 +34,11 @@ public class Activity_1_1 extends AppCompatActivity {
         setContentView(ln);
         //setContentView(R.layout.activity_main);
     }
+
+    // 힌트: setContentVIew()는 화면을 구성하는 View만 넘겨주면된다.
+    // 미션 1:
+    // Button만 하나 붙여보자
+    // 미션 2:
+    // TextView만 하나 붙여보자
+
 }

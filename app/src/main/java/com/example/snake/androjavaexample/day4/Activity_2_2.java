@@ -32,4 +32,9 @@ public class Activity_2_2 extends AppCompatActivity {
             }
         });
     }
+
+    /*
+     * 미션 1: "test"라는 이름으로 "테스트"라는 값을 보내고 호출된 Activity에서 setTitle로 보여준다. .
+     * 힌트 : Intent의 put, get의 이해
+    * */
 }

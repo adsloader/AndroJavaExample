@@ -35,4 +35,8 @@ public class Activity_1_5 extends AppCompatActivity {
             }
         });
     }
+    /*
+     * 미션 1: 버튼의 위치를 좌측 상단으로 이동한다.
+     * 힌트 : FreamLayout에서 Button의 값을 변경;
+    * */
 }
