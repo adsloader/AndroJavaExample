@@ -2,20 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.snake.androjavaexample">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".day3.Activity_1_1" />
         <activity android:name=".day3.Activity_1_2" />
         <activity android:name=".day3.Activity_1_3" />
@@ -46,14 +41,35 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".day5.self.Activity_about_1"></activity>
+        <activity android:name=".day5.self.Activity_about_1" />
         <activity android:name=".day5.self.Activity_about_2" />
         <activity android:name=".day5.self.Activity_about_3" />
         <activity android:name=".day5.self.Activity_about_4" />
-        <activity android:name=".day5.self.Activity_calculator_1">
+        <activity android:name=".day5.self.Activity_calculator_1" />
+        <activity android:name=".day5.self.Activity_custom_1" />
+        <activity android:name=".day7.Activity_5_1" />
+        <activity android:name=".day7.Activity_5_2">
         </activity>
-        <activity android:name=".day5.self.Activity_custom_1"></activity>
+        <activity android:name=".day7.Activity_5_3">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.vintageappmaker.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".day7.Activity_5_4">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".day7.Activity_5_4_second">
+        </activity>
     </application>
-    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>
