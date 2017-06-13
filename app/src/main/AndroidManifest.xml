@@ -48,8 +48,7 @@
         <activity android:name=".day5.self.Activity_calculator_1" />
         <activity android:name=".day5.self.Activity_custom_1" />
         <activity android:name=".day7.Activity_5_1" />
-        <activity android:name=".day7.Activity_5_2">
-        </activity>
+        <activity android:name=".day7.Activity_5_2"></activity>
         <activity android:name=".day7.Activity_5_3">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -63,12 +62,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".day7.Activity_5_4">
+        </activity>
+        <activity android:name=".day7.Activity_5_4_second"></activity>
+        <activity android:name=".day5.self.Activity_life_1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".day7.Activity_5_4_second">
         </activity>
     </application>
 
