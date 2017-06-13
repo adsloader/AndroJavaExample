@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_1_5 extends AppCompatActivity {
+public class Activity_1_5 extends AppCompatActivity {
 
     ImageButton btnCount = null;
 

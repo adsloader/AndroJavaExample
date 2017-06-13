@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.widget.Toast;
 
-public class broadcastreceiver_3_2 extends BroadcastReceiver {
+public class broadcastreceiver_4_2 extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {

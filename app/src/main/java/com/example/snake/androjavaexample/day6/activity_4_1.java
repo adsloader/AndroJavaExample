@@ -6,15 +6,15 @@ import android.os.Bundle;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_3_1 extends AppCompatActivity {
+public class activity_4_1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_6_1);
+        setContentView(R.layout.activity_4_1);
 
         // 1. startService로 서비스를 실행합니다.
-        Intent Service = new Intent(this, service_3_1.class);
+        Intent Service = new Intent(this, service_4_1.class);
         startService(Service);
     }
 }

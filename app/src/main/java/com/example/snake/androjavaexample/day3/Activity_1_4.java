@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_1_4 extends AppCompatActivity {
+public class Activity_1_4 extends AppCompatActivity {
 
     EditText edt = null;
 

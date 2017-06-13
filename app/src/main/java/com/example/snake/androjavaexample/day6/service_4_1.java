@@ -7,8 +7,8 @@ import android.os.IBinder;
 import android.os.Message;
 import android.util.Log;
 
-public class service_3_1 extends Service {
-    public service_3_1() {
+public class service_4_1 extends Service {
+    public service_4_1() {
     }
 
     int nCount = 0;
@@ -46,7 +46,7 @@ public class service_3_1 extends Service {
                 Log.d("ALLTEST", String.format("service count-->%d", nCount++));
                 if(nCount == 10){
                     // 웹브라우저 호출 Intent
-                    Intent i = new Intent(service_3_1.this, activity_3_1.class);
+                    Intent i = new Intent(service_4_1.this, activity_4_1.class);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(i);
                 }

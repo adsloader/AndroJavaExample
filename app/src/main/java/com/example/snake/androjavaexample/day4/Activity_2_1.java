@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_2_1 extends AppCompatActivity {
+public class Activity_2_1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,7 +14,7 @@ public class activity_2_1 extends AppCompatActivity {
         setContentView(R.layout.activity_2_1);
 
         // Activity를 실행한다.
-        Intent intent = new Intent(activity_2_1.this, FullscreenActivity.class);
+        Intent intent = new Intent(Activity_2_1.this, FullscreenActivity.class);
         startActivity(intent);
 
         // 지금 activity를 종료한다.

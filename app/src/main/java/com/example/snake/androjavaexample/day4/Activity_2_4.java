@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_2_4 extends AppCompatActivity {
+public class Activity_2_4 extends AppCompatActivity {
 
     Button btn1, btn2, btn3, btn4;
 

@@ -14,12 +14,12 @@ import android.widget.Toast;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_2_5 extends AppCompatActivity {
+public class Activity_2_5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_2_5);
     }
 
 

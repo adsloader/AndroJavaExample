@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import com.example.snake.androjavaexample.R;
 
-public class activity_2_3 extends AppCompatActivity {
+public class Activity_2_3 extends AppCompatActivity {
     Button btnStartActivity = null;
     static int MY_REQUEST = 01;
 
@@ -30,7 +30,7 @@ public class activity_2_3 extends AppCompatActivity {
         btnStartActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(activity_2_3.this, activity_2_3_second.class);
+                Intent i = new Intent(Activity_2_3.this, Activity_2_3_second.class);
                 i.putExtra("message", "hi");
                 startActivityForResult(i, MY_REQUEST);
             }
