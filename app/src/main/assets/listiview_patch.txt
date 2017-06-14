@@ -1,0 +1,47 @@
+// 가장 중요!!!!!!!!!!!!!
+        // 리스트 항목에 위젯을 설정한다.
+        // 쉬운 설명을 위해 widget을 tag에 저장하는 기법은 사용하지 않았다.!!!
+        // 그러므로 스크롤 할 경우, 데이터가 이상하게 보일 것이다.
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            final ViewHolder vHolder;
+            if (convertView == null) {
+                LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                convertView = inflater.inflate(R.layout.list_item, null);
+
+                // 이곳에서 위젯들을 읽어와서 convertView의 setTag()로 저장
+                // 화면에 사용되는 위젯들을 저장할 클래스를 선언하고 사용해야 함!!
+                /*
+                *  class ViewHolder{
+                *      Button btn;
+                *      TextView txt;
+                *  }
+                * */
+
+                vHolder = new ViewHolder();
+                vHolder.btn = (Button) convertView.findViewById(R.id.button);
+                vHolder.txt = (TextView) convertView.findViewById(R.id.textView);
+
+                convertView.setTag(vHolder);
+            } else{
+
+                // 이곳에서 getTag()로 읽어와서 위젯들을 액세스
+                vHolder = (ViewHolder) convertView.getTag();
+            }
+
+            listData mData = arr.get(position);
+            vHolder.txt.setText(mData.sTitle);
+
+            vHolder.btn.setTag(position);
+            vHolder.btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    int nIndx = (int)v.getTag();
+                    listData mData = arr.get(nIndx);
+                    vHolder.txt.setTextColor(Color.parseColor(mData.sChangeColor));
+                    vHolder.txt.setText(mData.sTitle);
+                }
+            });
+
+            return convertView;
+        }

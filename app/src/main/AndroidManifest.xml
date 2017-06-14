@@ -61,16 +61,28 @@
                     android:scheme="http" />
             </intent-filter>
         </activity>
-        <activity android:name=".day7.Activity_5_4"></activity>
+        <activity android:name=".day7.Activity_5_4" />
         <activity android:name=".day7.Activity_5_4_second" />
-        <activity android:name=".day5.self.Activity_life_1">
-        </activity>
-        <activity android:name=".day8.Activity_6_1">
+        <activity android:name=".day5.self.Activity_life_1" />
+        <activity android:name=".day8.Activity_6_1" />
+        <activity android:name=".day8.Activity_6_2" />
+        <activity android:name=".day8.Activity_6_3" />
+        <activity android:name=".day9.Activity_7_1" />
+        <activity android:name=".day9.Activity_7_2" />
+
+        <service
+            android:name=".day9.Service_7_2"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".day10.Activity_8_1" />
+        <activity android:name=".day10.Activity_8_2" />
+        <activity android:name=".day10.Activity_8_3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
     </application>
 
