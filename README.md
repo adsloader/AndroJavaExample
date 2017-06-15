@@ -12,3 +12,8 @@ Android를 공부하기 위한 29개의 기본예제(소스와 리소스)를 한
 [java]
 
 3. [순수자바만 실행하기 ](/app/src/main/assets/3.android_java.md) 
+
+
+[가장 기초적인 안드로이드 화면]
+
+4. [초간단 Android 예제](/app/src/main/assets/activity_1_2.md)
