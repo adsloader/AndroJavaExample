@@ -16,7 +16,7 @@ Android를 공부하기 위한 29개의 기본예제(소스와 리소스)를 한
 한 프로젝트에 여러 예제를 실행해야 하므로 실행하는 Activity를 변경할 줄 알아야 한다.
 
 2. [시작화면 설정](/app/src/main/assets/0.start_intentfilter.md)
-3. [레아이웃 추가하기](/app/src/main/assets/1.layout_change.md)
+3. [레아이웃 변경](/app/src/main/assets/1.layout_change.md)
 
 
 
