@@ -2,11 +2,13 @@
 >java 공부를 위한 56개의 예제파일(java)  
 Android를 공부하기 위한 29개의 기본예제(소스와 리소스)를 한 개의 소스로 정리함. 
 
-이 Project를 사용하기 위해 알아두어야 할 상식
-이 소스 사용법
+이 프로젝트 활용법 -유튜브-
 
-유튜브: https://www.youtube.com/watch?v=LNQRLtw0s8w&feature=youtu.be
+- [코딩으로 화면만들기](https://www.youtube.com/watch?v=LNQRLtw0s8w&feature=youtu.be)
+- [버튼 이벤트핸들러 만들기](https://www.youtube.com/edit?o=U&video_id=R5Sbph9XlgA)
 
+
+# Project 구성
 
 ##### [java]
 
