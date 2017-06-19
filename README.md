@@ -5,7 +5,7 @@ Android를 공부하기 위한 29개의 기본예제(소스와 리소스)를 한
 이 프로젝트 활용법 - **코딩따라하기**(유튜브)
 
 - [코딩으로 화면만들기](https://www.youtube.com/watch?v=LNQRLtw0s8w&feature=youtu.be)
-- [버튼 이벤트핸들러 만들기](https://www.youtube.com/edit?o=U&video_id=R5Sbph9XlgA)
+- [버튼 이벤트핸들러 만들기](https://www.youtube.com/watch?v=R5Sbph9XlgA&t=2s)
 
 
 # Project 구성
