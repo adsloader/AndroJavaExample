@@ -69,4 +69,9 @@ public class Activity_2_4 extends AppCompatActivity {
         });
 
     }
+
+    /*
+    미션 1: 자신의 집주소로 지도를 이동시켜보기.
+    미션 2: 카카오톡으로 자신에게 문자를 보내보기 (4일차 강의문서에 있음)
+    */
 }
