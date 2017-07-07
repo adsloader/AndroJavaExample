@@ -69,4 +69,11 @@ public class Activity_2_5 extends AppCompatActivity {
         toast.setView(layout);
         toast.show();
     }
+    /*
+    미션 1: 보여지는 위치를 중앙으로 변경
+    미션 2: Toast에 사용하는 toast_layout.xml의 최하단에
+             a. TextView를 하나 추가(id:txtMessage2).
+             b. Toast가 뜰때마다 nIndex 값을 보여준다.
+             Hint: java의 Integer.toString()으로 숫자값을 문자로 변경.
+    */
 }
