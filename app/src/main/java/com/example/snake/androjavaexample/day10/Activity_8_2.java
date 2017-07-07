@@ -81,4 +81,8 @@ public class Activity_8_2 extends AppCompatActivity {
         adapter.notifyDataSetChanged();
     }
 
+    /*
+    미션 1: 클릭 시, 아이템이 짝수일 경우만 지워지게 구현하기
+    */
+
 }

@@ -58,4 +58,8 @@ public class Service_7_2 extends Service {
         //myFirebaseRef = new Firebase("https://glowing-torch-2311.firebaseio.com/");
         myFirebaseRef = new Firebase("https://testandroid-d79e4.firebaseio.com/");
     }
+
+    /*
+    미션 1: 자신의 Firebase 주소로 변경하고 실행해볼 것.
+    */
 }

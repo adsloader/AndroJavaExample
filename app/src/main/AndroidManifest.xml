@@ -16,11 +16,6 @@
         <activity android:name=".day3.Activity_1_3" />
         <activity android:name=".day3.Activity_1_4" />
         <activity android:name=".day3.Activity_1_5">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".day4.Activity_2_1" />
         <activity
@@ -81,7 +76,14 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".day10.Activity_8_1" />
+        <activity android:name=".day10.Activity_8_1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
         <activity android:name=".day10.Activity_8_2" />
         <activity android:name=".day10.Activity_8_3"></activity>
         <activity android:name=".day4.Activity_2_extra"></activity>

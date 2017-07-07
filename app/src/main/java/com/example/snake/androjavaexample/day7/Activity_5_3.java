@@ -75,4 +75,8 @@ public class Activity_5_3 extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), sMessage, Toast.LENGTH_LONG).show();
         }
     }
+
+    /*
+    미션 1:  자신이 원하는 주소로 XML 설정을 바꾼다.
+    */
 }

@@ -135,4 +135,8 @@ public class    Activity_8_3 extends AppCompatActivity {
             return position;
         }
     }
+
+    /*
+    미션 1: assets 폴더에 listview_patch가 있음. 그것을 보고 1차 버그를 해결.
+    */
 }

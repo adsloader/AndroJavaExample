@@ -128,4 +128,8 @@ public class Activity_6_2 extends AppCompatActivity {
             super.onPostExecute(o);
         }
     }
+
+    /*
+    미션 1: img[src]로 리스트를 가져와보기
+    */
 }

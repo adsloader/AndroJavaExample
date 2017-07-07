@@ -59,4 +59,8 @@ public class service_4_1 extends Service {
         };
         handler.sendEmptyMessage(0);
     }
+    /*
+    미션 1: 30초 후면 Log.d("ALLTEST", String.format("service count-->%d", nCount++));가 실행되지 않게 한다.
+    미션 2: i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);를 주석처리하고 실행.
+    */
 }

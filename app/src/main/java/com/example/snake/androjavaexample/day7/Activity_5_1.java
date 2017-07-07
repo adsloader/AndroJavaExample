@@ -84,4 +84,9 @@ public class Activity_5_1 extends AppCompatActivity {
         }
     }
 
+    /*
+    미션 1: pinch(손가락으로 줌인아웃) 기능 구현. -> 소스내의 주석처리된 부분 참조
+    미션 2: 82번 라인  view.loadUrl(url);을 주석처리.
+    */
+
 }

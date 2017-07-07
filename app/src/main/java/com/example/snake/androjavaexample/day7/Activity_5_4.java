@@ -38,4 +38,9 @@ public class Activity_5_4 extends AppCompatActivity {
             }
         });
     }
+
+    /*
+    미션 1: 넘겨주는 "url" 의 이름을 "adress"로 바꾸고 수신측에서도 "adress"로 바꾼 후,
+            지금처럼 문제없이 실행되도록 할 것.
+    */
 }

@@ -34,7 +34,7 @@ public class Activity_6_1 extends AppCompatActivity {
 
                     // 미션 1: 왜 안될까? 소스코딩상의 문제일까? 고민하기.
                     // vintageappmaker.com을 입력해보기
-                    int nResultCode = http.execute("http://vintageappmaker.com", "GET").get();
+                    int nResultCode = http.execute("http://www.naver.com", "GET").get();
                     if(nResultCode == MyHttpClient.REQUEST_FAIL) return;
 
                     String s = http.getString();

@@ -100,4 +100,10 @@ public class Activity_5_2 extends AppCompatActivity {
             super.onPageFinished(view, url);
         }
     }
+
+    /*
+    미션 1: Activity의 onBackPress를 오버라이드해서 back 버튼을 누를 시, 이전 주소로 이동한다.
+    hint: 커서를 Activity 내에 어딘가에 이동 후, ctrl +o를 누르면 오버라이드 함수들이 나옴.
+          이곳에서 onBackPress를 입력하면 자동으로 선택가능.
+    */
 }
