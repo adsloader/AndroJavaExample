@@ -16,6 +16,8 @@ import java.util.ArrayList;
 public class Activity_8_2 extends AppCompatActivity {
 
     ListView lstMain = null;
+
+    // 데이터의 소스
     ArrayList lst    =  new <String>ArrayList();
 
     ArrayAdapter adapter = null;

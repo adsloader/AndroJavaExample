@@ -26,3 +26,9 @@ public class 철도관리시스템 {
         train.다음역에도착();
     }
 }
+// 미션 1:
+/*
+     train.passenger_out_train(name, destination) 형식의 메소드를 만들어
+     이름과 목적지를 기준으로 고객을 강제로 내리게 하는 메소드를
+     구현한다.
+*/

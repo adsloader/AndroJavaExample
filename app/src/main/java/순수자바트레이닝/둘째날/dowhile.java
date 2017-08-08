@@ -24,3 +24,7 @@ public class dowhile{
         System.out.println("마지막 결과값은 .." + i);
     }
 }
+
+// 힌트: Scanner()
+// 미션 1:
+// 100까지 진행하게 하고 짝수일 경우만 화면에 출력하게 한다.

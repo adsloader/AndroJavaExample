@@ -19,3 +19,11 @@ public class 형변환 {
         System.out.print(f);
     }
 }
+
+// 힌트:
+// 미션 1:
+// 18번라인 float f = (float)i / (float)j; 에서 f를 double로 바꾸고 실행해본다.
+// 미션 2:
+// 소수점 3자리까지만 출력한다.
+// 구글검색: https://www.google.co.kr/search?q=java+double+%EC%86%8C%EC%88%98%EC%A0%90+%EC%9E%90%EB%A6%AC%EC%88%98&oq=java+double+thtn&aqs=chrome.3.69i57j0l5.7079j0j7&sourceid=chrome&ie=UTF-8
+

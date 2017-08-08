@@ -23,3 +23,13 @@ public class if문예제3 {
 
     }
 }
+// 힌트: equals()
+// 미션 1:
+/*
+*       String fullname    = "제임스박";을
+*       String fullname    =  Secondtname + firstname; 으로 바꾸고
+        화면(콘솔=도스창)에
+        제임스박이 맞습니다
+        제임스박이 맞습니다
+        이 나오도록 한다.
+* */

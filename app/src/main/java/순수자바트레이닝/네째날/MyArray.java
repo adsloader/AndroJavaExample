@@ -52,3 +52,7 @@ public class MyArray {
         data[nAddIndex] = null;
     }
 }
+// 미션 1:
+// public void add(String s) 메소드를 구현할 때
+// 맨뒤가 아닌 맨앞에 추가하도록 구현해본다.
+// (고민하는 것조차 도움이 된다)

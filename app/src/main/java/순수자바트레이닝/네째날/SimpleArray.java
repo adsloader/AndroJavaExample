@@ -19,5 +19,10 @@ public class SimpleArray {
         for(int i = 0; i <data3.length; i++){
             System.out.println(data3[i]);
         }
+
     }
 }
+
+// 미션 1:
+// int형으로 data5 배열을 1부터 10까지 선언하고
+// for문으로 검색하여 5가 이는 곳에서 "loop를 탈출"한다.

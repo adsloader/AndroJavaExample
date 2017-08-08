@@ -25,6 +25,7 @@ public class Activity_8_1 extends AppCompatActivity {
         lnDynamic = (LinearLayout)findViewById(R.id.lnDynamic);
 
         for(int i =0; i < 100; i++){
+            // XML을 직접가져와서 객체에 대입시킨다.
             LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             LinearLayout dynamic_buy_item = (LinearLayout) inflater.inflate(R.layout.dynamic_layer, null);
 

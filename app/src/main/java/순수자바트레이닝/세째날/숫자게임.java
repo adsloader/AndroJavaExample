@@ -22,4 +22,34 @@ public class 숫자게임{
 
         return num;
     }
+
+    public static void main(String[] args) {
+        숫자게임 게임 = new 숫자게임();
+        게임.다음범위로_초기화(50);
+
+        do {
+            int num    = 게임.번호를입력하세요();
+            int result = 게임.이번호가니번호냐(num);
+
+            if(result == 0){
+                break;
+
+            } else if (result < 0){
+                System.out.println ("적어요");
+
+            } else{
+                System.out.println ("커요");
+            }
+
+        } while (true);
+
+        System.out.println ("맞추었습니다");
+
+    }
 }
+
+/*
+    미션  1: 몇번만에 맞추었는 지 출력한다.
+    미션  2: 10번안에 맞추지 못하면 "실패" 메시지를 출력하고 프로그램을 종료한다.
+*
+* */

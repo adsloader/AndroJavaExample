@@ -25,3 +25,10 @@ public class indexof {
 
   }  
 }
+
+
+// 힌트:
+// 미션 1:
+// name에 "java is programming laungage"를 입력한다.
+// 사용자가 scanner로 입력한 문자열에 name에 해당하는 값이 없을 경우는...
+// 문자가 없습니다를 출력하게 한다.

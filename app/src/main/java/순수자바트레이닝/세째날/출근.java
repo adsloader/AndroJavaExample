@@ -24,3 +24,30 @@ public class 출근{
     }
 
 }
+
+// 힌트: do {} while()을 이용한다.
+// 미션 1:
+/*
+
+class 사원{
+    String name;
+    int    time;
+    int    money;
+}
+를 정의하고
+
+public static void 함수_출근해라(String name, int time, int money){
+}
+를
+
+public static void 함수_출근해라(사원 누구님){
+    ...
+    누구님.name
+    누구님.time
+    누구님.money
+    ...
+}
+를 이용하여 소스코드를 고쳐볼 것.
+(당연히 기능은 그대로 구현되어야 함)
+
+*/

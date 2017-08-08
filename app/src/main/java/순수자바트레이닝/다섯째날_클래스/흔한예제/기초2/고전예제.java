@@ -24,3 +24,22 @@ public class 고전예제 {
 
     }
 }
+// 미션 1:
+/*
+        사람 클래스에서...
+
+    @Override
+    public void 반응한다() {
+        String s = 따라해봐();
+        System.out.println("당신은 \'" + s + "\'라고 말했습니다.");
+    }
+
+    를 @Override 삭제하고
+
+    public void 방응한다() {
+        String s = 따라해봐();
+        System.out.println("당신은 \'" + s + "\'라고 말했습니다.");
+    }
+
+    로 바꾼 후, 실행해본다.
+*/

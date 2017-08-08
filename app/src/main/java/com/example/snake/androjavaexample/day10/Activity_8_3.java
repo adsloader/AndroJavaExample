@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -45,7 +46,7 @@ public class    Activity_8_3 extends AppCompatActivity {
         arr.add( makeItems("#FF00FF", "세번째"));
 
         // 귀찮아서 아무거나..
-        for(int i = 0; i < 10;i++){
+        for(int i = 0; i < 100;i++){
             arr.add( makeItems("#0000FF", Integer.toString(i)) );
         }
 
@@ -78,6 +79,7 @@ public class    Activity_8_3 extends AppCompatActivity {
         // List의 개수를 알려준다.
         @Override
         public int getCount() {
+            Log.d("ALLTEST", "size 요청 -> " + arr.size());
             return arr.size();
         }
 
@@ -93,6 +95,7 @@ public class    Activity_8_3 extends AppCompatActivity {
         // 그러므로 스크롤 할 경우, 데이터가 이상하게 보일 것이다.
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
+            final ViewHolder vHolder;
             if (convertView == null) {
                 LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 convertView = inflater.inflate(R.layout.list_item, null);
@@ -106,22 +109,28 @@ public class    Activity_8_3 extends AppCompatActivity {
                 *  }
                 * */
 
+                vHolder = new ViewHolder();
+                vHolder.btn = (Button) convertView.findViewById(R.id.button);
+                vHolder.txt = (TextView) convertView.findViewById(R.id.textView);
+
+                convertView.setTag(vHolder);
             } else{
 
                 // 이곳에서 getTag()로 읽어와서 위젯들을 액세스
+                vHolder = (ViewHolder) convertView.getTag();
             }
 
-            final listData mData = arr.get(position);
+            listData mData = arr.get(position);
+            vHolder.txt.setText(mData.sTitle);
 
-            // convertView.findViewById()를 사용함!!
-            final Button btn =(Button) convertView.findViewById(R.id.button);
-            final TextView txtView = (TextView) convertView.findViewById(R.id.textView);
-
-            btn.setOnClickListener(new View.OnClickListener() {
+            vHolder.btn.setTag(position);
+            vHolder.btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    txtView.setTextColor(Color.parseColor(mData.sChangeColor));
-                    txtView.setText(mData.sTitle);
+                    int nIndx = (int)v.getTag();
+                    listData mData = arr.get(nIndx);
+                    vHolder.txt.setTextColor(Color.parseColor(mData.sChangeColor));
+                    vHolder.txt.setText(mData.sTitle);
                 }
             });
 

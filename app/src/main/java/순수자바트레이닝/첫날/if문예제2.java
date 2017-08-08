@@ -24,3 +24,21 @@ public class if문예제2 {
         // if(s2.equals(s3)){ 처럼 바꾸어 사용해야 한다.
     }
 }
+
+
+// 힌트: equals()
+// 미션 1:
+/*
+*       String s1 = "AAAA";
+        String s2 = "AAAA";
+        을
+        String s1 = new String("AAAA");
+        String s2 = new String("AAAA");
+        으로 바꾸고
+        화면(콘솔=도스창)에
+        s1 == s2 same
+        s1 == s3 same
+        이 나오도록 한다.
+* */
+
+

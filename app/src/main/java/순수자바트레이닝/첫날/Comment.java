@@ -15,3 +15,9 @@ public class Comment{
         //System.out.println("Hi");
     }
 }
+
+// 힌트: 코드가 실행되게 주석을 없애면 된다.
+// 미션 1:
+// 화면에 Hi를 출력한다.
+
+// 링크따라가기: https://goo.gl/sKzW7s

@@ -45,4 +45,9 @@ public class 매장 extends 매장관리{
         리포팅하기("===========================");
     }
 }
+// 미션 1:
+// public class 매장 extends 매장관리{ ...}에서
+// 매장 클래스를 매장관리가 아닌 매장관리GUI class에서 상속받고 실행해본다.
+// ** 상속이 왜 필요한지 생각해보는 내용 **
+// <-- Android Studio에서는 swing 읽어오는 것이 문제있어 intellij에서 테스트
 

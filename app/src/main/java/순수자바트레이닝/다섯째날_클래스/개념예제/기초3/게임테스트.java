@@ -23,3 +23,22 @@ public class 게임테스트 {
         p2.drinkRedBottle();
     }
 }
+
+// 미션 1:
+/*
+*   플레이어 클래스의
+*   abstract void attck();
+    abstract void defend();
+    abstract void drinkRedBottle();
+    를
+
+    void attck(){}
+    void defend(){}
+    void drinkRedBottle(){};
+
+    로 바꾸고 실행해본다.
+
+
+* */
+// ** abstract class가 왜 필요한지 생각해보는 내용 **
+

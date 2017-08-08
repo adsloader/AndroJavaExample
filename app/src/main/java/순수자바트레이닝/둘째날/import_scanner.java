@@ -20,3 +20,10 @@ public class import_scanner{
         System.out.println(" 이름은 " + name + "나이는 " + age);
     }
 }
+
+// 힌트: Scanner()
+// 미션 1:
+// 숫자 2개를 입력받는다
+// 그 곱하기 결과값을 화면에 출력한다.
+// ex: 1, 2를 입력받았다면
+// 1 * 2 = 2
